@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  KWImageViewCell.h
 //  KWImageMaxView
 //
 //  Created by korwin on 2017/10/10.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-@property (nonatomic,copy) NSArray  *labelArray;
-
+@interface KWImageViewCell : UICollectionViewCell
+@property (nonatomic,strong) UILabel  *label;
 @end
-

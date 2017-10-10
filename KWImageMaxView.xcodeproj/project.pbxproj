@@ -13,6 +13,9 @@
 		0A024B421F8BE29E00A4CD3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A024B411F8BE29E00A4CD3B /* Assets.xcassets */; };
 		0A024B451F8BE29E00A4CD3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A024B431F8BE29E00A4CD3B /* LaunchScreen.storyboard */; };
 		0A024B481F8BE29E00A4CD3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A024B471F8BE29E00A4CD3B /* main.m */; };
+		0A9090261F8CA22E001349BC /* KWFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9090251F8CA22E001349BC /* KWFlowLayout.m */; };
+		0AED309F1F8C7D7F00336803 /* KWImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AED309D1F8C7D7F00336803 /* KWImageViewCell.m */; };
+		0AED30A01F8C7D7F00336803 /* KWImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AED309E1F8C7D7F00336803 /* KWImageViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		0A024B441F8BE29E00A4CD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A024B461F8BE29E00A4CD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A024B471F8BE29E00A4CD3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A9090241F8CA22E001349BC /* KWFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWFlowLayout.h; sourceTree = "<group>"; };
+		0A9090251F8CA22E001349BC /* KWFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWFlowLayout.m; sourceTree = "<group>"; };
+		0AED309C1F8C7D7F00336803 /* KWImageViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWImageViewCell.h; sourceTree = "<group>"; };
+		0AED309D1F8C7D7F00336803 /* KWImageViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWImageViewCell.m; sourceTree = "<group>"; };
+		0AED309E1F8C7D7F00336803 /* KWImageViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KWImageViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,11 @@
 				0A024B391F8BE29E00A4CD3B /* AppDelegate.m */,
 				0A024B3B1F8BE29E00A4CD3B /* ViewController.h */,
 				0A024B3C1F8BE29E00A4CD3B /* ViewController.m */,
+				0A9090241F8CA22E001349BC /* KWFlowLayout.h */,
+				0A9090251F8CA22E001349BC /* KWFlowLayout.m */,
+				0AED309C1F8C7D7F00336803 /* KWImageViewCell.h */,
+				0AED309D1F8C7D7F00336803 /* KWImageViewCell.m */,
+				0AED309E1F8C7D7F00336803 /* KWImageViewCell.xib */,
 				0A024B3E1F8BE29E00A4CD3B /* Main.storyboard */,
 				0A024B411F8BE29E00A4CD3B /* Assets.xcassets */,
 				0A024B431F8BE29E00A4CD3B /* LaunchScreen.storyboard */,
@@ -129,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AED30A01F8C7D7F00336803 /* KWImageViewCell.xib in Resources */,
 				0A024B451F8BE29E00A4CD3B /* LaunchScreen.storyboard in Resources */,
 				0A024B421F8BE29E00A4CD3B /* Assets.xcassets in Resources */,
 				0A024B401F8BE29E00A4CD3B /* Main.storyboard in Resources */,
@@ -142,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AED309F1F8C7D7F00336803 /* KWImageViewCell.m in Sources */,
+				0A9090261F8CA22E001349BC /* KWFlowLayout.m in Sources */,
 				0A024B3D1F8BE29E00A4CD3B /* ViewController.m in Sources */,
 				0A024B481F8BE29E00A4CD3B /* main.m in Sources */,
 				0A024B3A1F8BE29E00A4CD3B /* AppDelegate.m in Sources */,
